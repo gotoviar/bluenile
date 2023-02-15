@@ -24,14 +24,18 @@
 
   "environments": [
     {
-      "path": "/base.zip/base_env.jpg",
-      "type": "main"
+      "path": "/base.zip/color_env.jpg",
+      "type": "color"
+    },
+    {
+      "path": "/base.zip/reflection_env.jpg",
+      "type": "reflection"
     }
   ],
 
   "menu": [
     {
-      "path": "/base.zip/menu.xml",
+      "path": "/menu.xml",
       "type": "main",
       "name": "home"
     }
