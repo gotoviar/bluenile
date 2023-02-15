@@ -269,6 +269,9 @@
                             <all type = "UNIFORM_COLOR" first = "0x00000000"/>
                         </color>
                     </frame>
+                    <on_click>
+                      <action name = "exit"/>
+                    </on_click>
                 </button>
               </children>
             </window>
@@ -423,6 +426,9 @@
                   <all type = "UNIFORM_COLOR" first = "0x00000000"/>
                 </color>
               </frame>
+              <on_click>
+                <action name = "exit"/>
+              </on_click>
             </button>
           </children>
         </window>
@@ -577,6 +583,9 @@
                   <all type = "UNIFORM_COLOR" first = "0x00000000"/>
                 </color>
               </frame>
+              <on_click>
+                <action name = "exit"/>
+              </on_click>
             </button>
           </children>
         </window>
@@ -731,6 +740,9 @@
                   <all type = "UNIFORM_COLOR" first = "0x00000000"/>
                 </color>
               </frame>
+              <on_click>
+                <action name = "exit"/>
+              </on_click>
             </button>
           </children>
         </window>
@@ -1081,6 +1093,9 @@
                   <all type = "UNIFORM_COLOR" first = "0x00000000"/>
                 </color>
               </frame>
+              <on_click>
+                <action name = "exit"/>
+              </on_click>
             </button>
           </children>
         </window>
