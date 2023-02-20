@@ -341,11 +341,6 @@
             <imagebutton id="aboutus" text="ABOUT US"  animation="anim1" theme="blue">
               <size type = "RELATIVE" x="22" y="50" />
               <position type = "RELATIVE" x="18" y="22" />
-              <transform>
-                <default type="identity" />
-                <hovered type="identity" />
-                <active type="scale" x="0.0" y="1.0" />
-              </transform>
               <image path="/base.zip/bluenile_logo.png">
                 <align>
                   <all x="0.5" y="0.5" />
@@ -354,7 +349,7 @@
                 <transform>
                   <default type="identity" />
                   <hovered type="scale" x="1.4" y="1.4" />
-                  <active type="scale" x="0" y="1" />
+                  <active type="identity" />
                 </transform>
               </image>
               <frame>
@@ -390,11 +385,6 @@
             <imagebutton id="openvideo" text="OPEN VIDEO"  animation="anim1" theme="blue">
               <size type = "RELATIVE" x="22" y="50" />
               <position type = "RELATIVE" x="60" y="22" />
-              <transform>
-                <default type="identity" />
-                <hovered type="identity" />
-                <active type="scale" x="0.0" y="1.0" />
-              </transform>
               <image path="/base.zip/bluenile_logo.png">
                 <align>
                   <all x="0.5" y="0.5" />
@@ -403,7 +393,7 @@
                 <transform>
                   <default type="identity" />
                   <hovered type="scale" x="1.4" y="1.4" />
-                  <active type="scale" x="0" y="1" />
+                  <active type="identity" />
                 </transform>
               </image>
               <frame>
@@ -433,7 +423,7 @@
                 </color>
               </text>
               <on_click>
-                <action name = "open_video" res_name="video_url"/>
+                <action name = "open_video" res_name="demo_project/video/Blue_Nile.mp4" />
               </on_click>
             </imagebutton>
             <button id="back" text="" draw_order="FOREGROUND" >
