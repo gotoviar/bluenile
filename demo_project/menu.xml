@@ -423,7 +423,7 @@
                 </color>
               </text>
               <on_click>
-                <action name = "open_video" res_name="/video/Blue_Nile.mp4" />
+                <action name = "open_video" res_name="demo_project/video/Blue_Nile.mp4" />
               </on_click>
             </imagebutton>
             <button id="back" text="" draw_order="FOREGROUND" >
@@ -1518,4 +1518,3 @@
       </menu>
     </gui>
 </gtvr>
-
