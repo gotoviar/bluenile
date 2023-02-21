@@ -1462,57 +1462,76 @@
                 <position type = "RELATIVE" x="99" y="15" />
             </scrollbar>
             <children>
-                <textwrapped id="about_us" theme="blue" text="Blue Nile was founded in 1999 with the idea that the diamond and engagement ring business was ready for innovation. We revolutionized the industry with a disruptive online business model, making it possible to shop for extraordinary, high-quality diamonds at a great value. And we didn't stop there.                                  We also firmly believed that our customers deserved more choices, straightforward information and legendary service. We felt strongly about building a team of passionate, non-commissioned diamond and jewellery experts who put the customer first. (We're thrilled to share that a few of our customers have even invited our experts to their weddings!)                                                                 As the leader in handcrafted engagement rings and beautiful fine jewellery, we're constantly innovating and looking for new ways to help you discover and design the perfect pieces for every occasion. We strive to be your jeweller for life.                                                                                                                                                  More info: www.bluenile.com">
-                    <size type = "RELATIVE" x="85.0" y="89.0" />
-                    <position type = "RELATIVE" x="1.0" y="11.0" />
-                </textwrapped>
+                <panel id="text_panel" theme="blue">
+                    <padding x="40" y="20" />
+                    <size type = "RELATIVE" x="85.0" y="85.0" />
+                    <position type = "RELATIVE" x="7.5" y="11.0" />
+                    <children>
+                        <textwrapped id="about_us1" theme="blue" text="Blue Nile was founded in 1999 with the idea that the diamond and engagement ring business was ready for innovation. We revolutionized the industry with a disruptive online business model, making it possible to shop for extraordinary, high-quality diamonds at a great value. And we didn't stop there.">
+                            <size type = "RELATIVE" x="98.0" y="25.0" />
+                            <position type = "RELATIVE" x="5" y="5.0" />
+                        </textwrapped>
+                        <textwrapped id="about_us2" theme="blue" text="We also firmly believed that our customers deserved more choices, straightforward information and legendary service. We felt strongly about building a team of passionate, non-commissioned diamond and jewellery experts who put the customer first. (We're thrilled to share that a few of our customers have even invited our experts to their weddings!)">
+                            <size type = "RELATIVE" x="98.0" y="25.0" />
+                            <position type = "RELATIVE" x="5" y="30.0" />
+                        </textwrapped>
+                        <textwrapped id="about_us3" theme="blue" text="As the leader in handcrafted engagement rings and beautiful fine jewellery, we're constantly innovating and looking for new ways to help you discover and design the perfect pieces for every occasion. We strive to be your jeweller for life.">
+                            <size type = "RELATIVE" x="98.0" y="25.0" />
+                            <position type = "RELATIVE" x="5" y="55.0" />
+                        </textwrapped>
+                        <textwrapped id="about_us4" theme="blue" text="More info: www.bluenile.com">
+                            <size type = "RELATIVE" x="98.0" y="25.0" />
+                            <position type = "RELATIVE" x="5" y="75.0" />
+                        </textwrapped>
+                    </children>
+                </panel>
                 <button id="back" text="" draw_order="FOREGROUND" >
-              <size type = "RELATIVE" x="5" y="8" />
-              <position type = "RELATIVE" x="0" y="0" is_static="true" />
-              <text>
-                <color>
-                  <all type = "UNIFORM_COLOR" first = "0x4d66ffff"/>
-                </color>
-              </text>
-              <border>
-                <width>
-                  <all v="0.0" />
-                </width>
-              </border>
-              <frame>
-                <color>
-                  <all type = "UNIFORM_COLOR" first = "0x00000000"/>
-                </color>
-              </frame>
-              <on_click>
-                <action order="1" name = "change_menu" src_name="bluenile"/>
-              </on_click>
-            </button>
-            <button id="exit" text="" draw_order="FOREGROUND" >
-              <size type = "RELATIVE" x="5" y="8" />
-              <position type = "RELATIVE" x="0" y="91" is_static="true" />
-              <text>
-                <color>
-                  <all type = "UNIFORM_COLOR" first = "0xFFFFFFFF"/>
-                </color>
-                <transform>
-                  <all type="scale" x="-1.0" y="1.0" />
-                </transform>
-              </text>
-              <border>
-                <width>
-                  <all v="0.0" />
-                </width>
-              </border>
-              <frame>
-                <color>
-                  <all type = "UNIFORM_COLOR" first = "0x00000000"/>
-                </color>
-              </frame>
-              <on_click>
-                <action name = "exit"/>
-              </on_click>
-            </button>
+                    <size type = "RELATIVE" x="5" y="8" />
+                    <position type = "RELATIVE" x="0" y="0" is_static="true" />
+                <text>
+                    <color>
+                    <all type = "UNIFORM_COLOR" first = "0x4d66ffff"/>
+                    </color>
+                </text>
+                <border>
+                    <width>
+                    <all v="0.0" />
+                    </width>
+                </border>
+                <frame>
+                    <color>
+                    <all type = "UNIFORM_COLOR" first = "0x00000000"/>
+                    </color>
+                </frame>
+                <on_click>
+                    <action order="1" name = "change_menu" src_name="bluenile"/>
+                </on_click>
+                </button>
+                <button id="exit" text="" draw_order="FOREGROUND" >
+                    <size type = "RELATIVE" x="5" y="8" />
+                    <position type = "RELATIVE" x="0" y="91" is_static="true" />
+                <text>
+                    <color>
+                    <all type = "UNIFORM_COLOR" first = "0xFFFFFFFF"/>
+                    </color>
+                    <transform>
+                    <all type="scale" x="-1.0" y="1.0" />
+                    </transform>
+                </text>
+                <border>
+                    <width>
+                    <all v="0.0" />
+                    </width>
+                </border>
+                <frame>
+                    <color>
+                    <all type = "UNIFORM_COLOR" first = "0x00000000"/>
+                    </color>
+                </frame>
+                <on_click>
+                    <action name = "exit"/>
+                </on_click>
+                </button>
             </children>
         </window>
       </menu>
